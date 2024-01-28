@@ -1,0 +1,58 @@
+  .info {
+    border-left: "4px solid #b4aaff";
+    background-color: "rgba(224; 226; 255; 0.5)";
+    color: "#2a2135";
+    content: '"🔑"';
+    width: 35;
+    height: 35;
+    display: "inline-flex";
+    justify-content: "center";
+    position: "absolute";
+    left: "-1.2rem";
+    border-radius: "50%";
+    align-items: "center";
+    top: "-0.8rem";
+      
+    }
+    .danger {
+        border-left: "4px solid #ff7828";
+        background-color: "rgb(253; 236; 234)";
+        content: '"⚠️"';
+        width: 35;
+        height: 35;
+        display: "inline-flex";
+        justify-content: "center";
+        position: "absolute";
+        left: "-1.2rem";
+        border-radius: "50%";
+        align-items: "center";
+        top: "-0.8rem";
+    }
+    .congrats {
+        border-left: "4px solid #72bc23";
+        background-color: "rgb(249; 253; 234)";
+        content: '"🎉"';
+        width: 35;
+        height: 35;
+        display: "inline-flex";
+        justify-content: "center";
+        position: "absolute";
+        left: "-1.2rem";
+        border-radius: "50%";
+        align-items: "center";
+        top: "-0.8rem";
+      }
+      .documentation {
+        border-left: "4px solid #44a9ba";
+        background-color: "rgb(234; 248; 253);";
+        content: '"📚"';
+        width: 35;
+        height: 35;
+        display: "inline-flex";
+        justify-content: "center";
+        position: "absolute";
+        left: "-1.2rem";
+        border-radius: "50%";
+        align-items: "center";
+        top: "-0.8rem";
+      }
