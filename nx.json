@@ -18,20 +18,10 @@
     "@nx/jest:jest": {
       "cache": true,
       "inputs": ["default", "^production", "{workspaceRoot}/jest.preset.js"],
-      "options": {
-        "passWithNoTests": true
-      },
-      "configurations": {
-        "ci": {
-          "ci": true,
-          "codeCoverage": true
-        }
-      }
+      "options": { "passWithNoTests": true },
+      "configurations": { "ci": { "ci": true, "codeCoverage": true } }
     },
-    "e2e": {
-      "cache": true,
-      "inputs": ["default", "^production"]
-    },
+    "e2e": { "cache": true, "inputs": ["default", "^production"] },
     "build-storybook": {
       "cache": true,
       "inputs": [
@@ -61,26 +51,13 @@
   },
   "generators": {
     "@nx/react": {
-      "application": {
-        "babel": true
-      },
-      "library": {
-        "unitTestRunner": "jest"
-      }
+      "application": { "babel": true },
+      "library": { "unitTestRunner": "jest" }
     },
-    "@nx/next": {
-      "application": {
-        "style": "css",
-        "linter": "eslint"
-      }
-    }
+    "@nx/next": { "application": { "style": "css", "linter": "eslint" } }
   },
-  "nxCloudAccessToken": "YzIyOWVkNzgtNDhjOC00YmQwLWE5N2EtMzdjNTVlNWU3MjhkfHJlYWQtd3JpdGU=",
+  "nxCloudAccessToken": "NzM3NDI3YzUtMzRmMS00YmRiLTg2YTMtY2Q0ZDM5N2M0MTIzfHJlYWQtd3JpdGU=",
   "tasksRunnerOptions": {
-    "default": {
-      "options": {
-        "cacheableOperations": ["build-storybook"]
-      }
-    }
+    "default": { "options": { "cacheableOperations": ["build-storybook"] } }
   }
 }
